@@ -1,0 +1,89 @@
+/* R. Alan Cooper
+/* Style Sheet Prototype
+/* LJHC SLP */
+
+body {
+	font-family: "Trebuchet MS", Arial, serif; 				/* Trebuchet MS is now the default website font */
+	font-size: 20px;										/* Default Font Size */
+	background-color: #F5F8FA; 								/* Transparent Grey Website BG Color */
+	color: #000000; 										/* Body Text Font Color */
+	position: absolute;
+}
+
+header {
+	font-size: 60px;										/* Font Size for HEADER */
+
+	background-color: #668E39;								/* Fill Color for HEADER */
+	height: 90px;											/* Fixed Height for HEADER */
+	padding-top: 20px;										/* Whitespace between Border and Font (top side) */
+	padding-bottom: 15px;									/* Whitespace between Border and Font (bottom side) */
+	padding-left: 40px;										/* Whitespace between Border and Font (left side) */
+
+	min-width: 1000px;
+	max-width: 1920px;
+	border: 3px solid #000000;								/* Sets Border Properties for HEADER box */
+}
+
+nav {
+	text-transform: uppercase;								/* ALL CAPS for NAV menu */
+	font-size: 22px;										/* Adjusts font size from header */
+
+	float: right;											/* NAV menu Alignment*/
+	margin-top: 10px;										/* Pushes Element downwards */
+	margin-right: 10px;										/* Pushes Element to the left */
+	padding-left: 25px;										/* Whitespace Between Font/Border (left side) */
+	padding-right: 25px;									/* Whitespace Between Font/Border (right side) */
+	padding-top: 10px;										/* Whitespace Between Font/Border (top side) */
+	padding-bottom: 10px;									/* Whitespace Between Font/Border (bottom side) */
+
+	border-radius: 25px;									/* Border Is Given Rounded Corners */
+	border: 3px solid #000000;								/* Border Thickness/Style/Color */
+
+	background-color: #F5F8FA;								/* Color of NAV menu */
+}
+
+h1 {
+	padding-left: 40px;
+}
+
+p {
+	padding-left: 40px;
+	font-family: "Verdana", serif;						/* Sets the default font for paragraphs */
+	font-style: italic;
+}
+
+footer {
+	min-height: 80px;
+	min-width: 1000px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-bottom: -20px;
+	padding-top: 10px;
+	background-color: #668E39;
+	border: 3px solid #000000;
+	border-right: 1px solid #668E39;
+	border-left: 1px solid #668E39;
+}
+
+.HeaderQuote{
+	font-style: italic;
+}
+
+#menu1 a:link {color: #009900; text-decoration: none;}		/* Sets Default Color of Hyperlink; Removes Default Underline of Hyperlink */
+#menu1 a:visited {color: #009900;}							/* Color of Visited Hyperlink (Set to Same Color as Default/Unvisited) */
+#menu1 a:focus {color: #333333;}								/* Color when User "Tabs" over Hyperlink */
+#menu1 a:active {color: #009900;}							/* Color as Link is Pressed */
+#menu1 a:hover {
+	color: #333333;											/* Color when Mouse Hovers on Hyperlink */
+	padding-bottom: 6px;									/* Spacing between Link and Underline Border */
+	border-bottom: 3px solid #999999;						/* Thickness/Style/Color of Underline Border upon Highlighting Hyperlink */
+}
+
+
+#ASHA{
+	border: 3px solid #000000;								/* Picture Border for ASHA Banner on Home Page */
+	float: right;											/* Positions Picture on Right side of paragraph */
+	posiiton: absolute;										/* Ensures the picture doesn't move around */
+	margin-left: 10px;
+}
+
